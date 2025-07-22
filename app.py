@@ -66,6 +66,7 @@ if st.button("Predict Salary Class"):
     label_map = {0: "≤50K", 1: ">50K"}
     st.success(f"✅ Prediction: {prediction[0]}")
 
+'''
 # Predict button
 if st.button("Predict Salary Class"):
     prediction = model.predict(input_df)
@@ -76,7 +77,7 @@ if st.button("Predict Salary Class"):
     else:
         st.success("✅ Prediction: Salary is > 50K")
 
-
+'''
 
 #if prediction[0] == "<=50K":
 #   st.success("✅ Prediction: Salary is ≤ 50K")
